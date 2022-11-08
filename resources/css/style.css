@@ -40,7 +40,7 @@
     border-top-right-radius: 25px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
-    border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 5px;
     border: 0px;
     box-shadow: none;
     outline: none;
@@ -181,12 +181,12 @@
     fill:#25b99a;
   }
 
-  ul.todo#completed:not(:empty) {
+  ul.todo#completed {
     position: relative;
     padding: 60px 0 0 0;
   }
 
-  ul.todo#completed:not(:empty):before {
+  ul.todo#completed:before {
     content: '';
     width: 150px;
     height: 1px;
@@ -197,6 +197,24 @@
     margin: 0 0 0 -75px;
   }
  
+  ul.todo#completed:after {
+    content: "No Tasks Completed";
+    margin: 15px 0 0 0;
+  }
+  
+  ul.todo#todo:after {
+    content: "No Tasks To Do";
+  }
+  
+  ul.todo#completed:empty:after,
+  ul.todo#todo:empty:after {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+  }
+  
   header input::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.75);
   }

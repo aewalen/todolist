@@ -1,0 +1,16 @@
+15
+55C:\Users\April\OneDrive\programs\practice\todolist\dist133114854938017030 1
+61C:\Users\April\OneDrive\programs\practice\todolist\index.html133114846150913220 0
+74C:\Users\April\OneDrive\programs\practice\todolist\dist\index.6dbe16b0.css133114854937857008 0
+60C:\Users\April\OneDrive\programs\practice\todolist\resources133107900027267482 1
+74C:\Users\April\OneDrive\programs\practice\todolist\resources\css\style.css133112496990095169 0
+71C:\Users\April\OneDrive\programs\practice\todolist\resources\ts\main.ts133114850939768058 0
+63C:\Users\April\OneDrive\programs\practice\todolist\resources\ts133107899990194089 1
+64C:\Users\April\OneDrive\programs\practice\todolist\resources\css133107319187016802 1
+74C:\Users\April\OneDrive\programs\practice\todolist\resources\css\reset.css133107335887829102 0
+78C:\Users\April\OneDrive\programs\practice\todolist\dist\index.6dbe16b0.css.map133114854937987038 0
+66C:\Users\April\OneDrive\programs\practice\todolist\dist\index.html133114854937846999 0
+73C:\Users\April\OneDrive\programs\practice\todolist\dist\index.cd0244c6.js133114854937857008 0
+77C:\Users\April\OneDrive\programs\practice\todolist\dist\index.cd0244c6.js.map133114854937997033 0
+74C:\Users\April\OneDrive\programs\practice\todolist\dist\index.ce1607d2.css133114854937857008 0
+78C:\Users\April\OneDrive\programs\practice\todolist\dist\index.ce1607d2.css.map133114854937987038 0

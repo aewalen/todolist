@@ -5,7 +5,7 @@ const completeSVG = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns
 document.getElementById("add")?.addEventListener('click', () => {
   const value = (document.getElementById('item') as HTMLInputElement).value;
   
-  if (value)  {
+  if (value != "")  {
     addItemToDo(value);
     (document.getElementById('item') as HTMLInputElement).value = '';
   }
@@ -51,7 +51,7 @@ function completeItem() {
   const parent = item.parentNode;
   const id = parent.id;
 
-  const target = (id == 'todo') ? document.getElementById('completed'): document.getElementById('todo');
+  const target = (id == 'todo') ? document.getElementById('completed') : document.getElementById('todo');
 
   parent.removeChild(item);
   target?.insertBefore(item, target.childNodes[0]);

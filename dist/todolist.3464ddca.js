@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"2tqw6":[function(require,module,exports) {
+})({"c4xoB":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
@@ -533,6 +533,6 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"j4kuM":[function(require,module,exports) {
 
-},{}]},["2tqw6","j4kuM"], "j4kuM", "parcelRequire94c2")
+},{}]},["c4xoB","j4kuM"], "j4kuM", "parcelRequire78f8")
 
 //# sourceMappingURL=todolist.3464ddca.js.map
