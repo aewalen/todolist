@@ -196,15 +196,6 @@
     left: 50%;
     margin: 0 0 0 -75px;
   }
- 
-  ul.todo#completed:after {
-    content: "No Tasks Completed";
-    margin: 15px 0 0 0;
-  }
-  
-  ul.todo#todo:after {
-    content: "No Tasks To Do";
-  }
   
   ul.todo#completed:empty:after,
   ul.todo#todo:empty:after {
