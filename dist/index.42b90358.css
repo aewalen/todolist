@@ -15,7 +15,7 @@ header {
   width: 100%;
   height: 80px;
   z-index: 5;
-  background: #25b99a;
+  background: #26c6da;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 15px;
@@ -34,7 +34,7 @@ header input {
   box-shadow: none;
   background: #fff3;
   border: 0;
-  border-radius: 5px 25px 5px 5px;
+  border-radius: 5px 25px 25px 5px;
   outline: none;
   padding: 0 60px 0 0;
   font-size: 15px;
@@ -54,15 +54,6 @@ header button {
   position: absolute;
   top: 15px;
   right: 15px;
-}
-
-header button svg {
-  width: 16px;
-  height: 16px;
-  margin: -8px 0 0 -8px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
 }
 
 header button svg .fill {

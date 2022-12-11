@@ -2,8 +2,9 @@ import React, { ChangeEvent, useState } from "react";
 import ReactDOM from "react-dom";
 import DeleteIcon from "@mui/icons-material/Delete";
 import CheckIcon from "@mui/icons-material/Check";
+import AddIcon from "@mui/icons-material/Add";
 import { IconButton, ListItem } from "@mui/material";
-import { green, red } from "@mui/material/colors";
+import { blue, cyan, green, lightGreen, red } from "@mui/material/colors";
 import { Container } from "@mui/system";
 
 type TodoState = {
@@ -70,7 +71,7 @@ const TodoApp = () => {
         secondaryAction={
           <>
             <IconButton onClick={() => deleteTodo(props.text)}>
-              <DeleteIcon sx={{ color: red[300] }} />
+              <DeleteIcon sx={{ color: red[200] }} />
             </IconButton>
             <IconButton
               onClick={() =>
@@ -80,7 +81,7 @@ const TodoApp = () => {
               }
               edge="end"
             >
-              <CheckIcon sx={{ color: green[300] }} />
+              <CheckIcon sx={{ color: lightGreen[200] }} />
             </IconButton>
           </>
         }
@@ -100,7 +101,16 @@ const TodoApp = () => {
           placeholder="Enter an activity..."
           id="item"
         />
-        <button id="add" onClick={addTodo}></button>
+        <button id="add" onClick={addTodo}>
+          <AddIcon
+            sx={{
+              verticalAlign: "middle",
+              fontSize: 30,
+              justifyContent: "center",
+              color: cyan[400],
+            }}
+          />
+        </button>
       </header>
       <div className="container">
         <ul className="todo" id="todo">
